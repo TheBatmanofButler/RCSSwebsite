@@ -1,0 +1,164 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Oxygen";
+  background-color: #62A8E5;
+  color: #fff;
+  font-size: 100%; }
+
+a {
+  text-decoration: none;
+  margin: 0;
+  color: #000; }
+
+section {
+  width: 80%;
+  height: 100vh;
+  margin-bottom: 100px;
+  text-align: center; }
+  section #advisory-board-section {
+    background-color: #fff; }
+  section #current-members-section {
+    background-color: #000; }
+  section #support-us-section {
+    background-color: #fff; }
+  section #programs-section {
+    background-color: #000; }
+  section #events-section {
+    background-color: #fff; }
+
+.top-bar {
+  height: 30%;
+  width: 100%;
+  opacity: 0.95;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 2px solid #000;
+  text-align: center;
+  background-color: #fff; }
+  .top-bar img {
+    width: 98%;
+    padding-top: 1%;
+    margin: 0; }
+
+.menus ul li {
+  list-style: none;
+  height: 100%;
+  padding: 1% 0.5% 1%;
+  color: #000;
+  cursor: pointer; }
+  .menus ul li:hover {
+    color: #62A8E5; }
+
+.navbar {
+  width: 100%;
+  margin-top: -1%;
+  padding: 0; }
+  .navbar ul li {
+    font-size: 100%;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 2%; }
+
+.main-page {
+  width: 100%;
+  height: 70%;
+  margin: 0 auto 0; }
+  .main-page .slideshow-left-panel {
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: #62A8E5; }
+    .main-page .slideshow-left-panel ul {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0; }
+      .main-page .slideshow-left-panel ul li {
+        list-style: none;
+        width: 100%;
+        height: 20%; }
+      .main-page .slideshow-left-panel ul li.active {
+        background-color: #C4D8E2; }
+  .main-page .slideshow-wrapper {
+    width: 70%;
+    height: 100%;
+    float: right; }
+    .main-page .slideshow-wrapper .slideshow {
+      height: 100%; }
+    .main-page .slideshow-wrapper img {
+      height: 100%; }
+
+.slides {
+  width: 100%;
+  height: 100%;
+  display: none;
+  float: left; }
+  .slides .image-wrapper {
+    position: relative;
+    height: 100%; }
+  .slides .caption {
+    display: none;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    overflow: none;
+    font-size: 150%;
+    height: 10%;
+    width: 100%;
+    background-color: #62A8E5;
+    opacity: 0.7; }
+
+.active {
+  display: block; }
+
+.dropdown-wrapper {
+  z-index: 5; }
+
+.v-dropdown {
+  cursor: pointer; }
+  .v-dropdown a:hover {
+    background-color: #62A8E5; }
+  .v-dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #62A8E5;
+    width: 10%;
+    margin: 0;
+    padding: 0; }
+
+.welcome-message {
+  background-color: yellow; }
+
+.people {
+  margin: 0 auto; }
+  .people .people-photo-wrapper {
+    text-align: center; }
+  .people .people-photo {
+    width: 15%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 5%;
+    cursor: pointer; }
+  .people .people-wrapper {
+    display: none;
+    background-color: #C4D8E2;
+    height: 100%;
+    text-align: center; }
+    .people .people-wrapper .people-descriptions {
+      display: none;
+      height: 40%; }
+
+.top-bar-space {
+  height: 30%; }
+
+.support-us div {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */

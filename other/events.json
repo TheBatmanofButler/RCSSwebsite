@@ -1,0 +1,33 @@
+{
+    "neonatalComfortCareTalk": {
+            "media": {
+                "caption":      "",
+                "credit":       "",
+                "url":          "img/ganesh.jpg",
+                "thumbnail":    "img/neonatalTalk.png"
+            },
+            "text": {
+                "headline": "Neonatal Comfort Care Lecture",
+                "text":     "The Neonatal Comfort Care Program at the New York Presbyterian-Morgan Stanley Children’s Hospital aims to provide short term care for babies with life limiting conditions. On October 21, neonatologist Dr. Elvira Parravicini, nurse Fran McCarthy and once patient Alessandra Rose share their experiences of beauty and love in a time when medicine <i>cures</i> an untreatable diagnosis."
+            }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "10",
+                "day":          "22"
+            },
+            "media": {
+                "caption":      "",
+                "credit":       "",
+                "url":          "https://www.youtube.com/watch?v=0r14A-Ic76A",
+                "thumbnail":    "img/neonatalTalk.png"
+            },
+            "text": {
+                "headline": "Neonatal Comfort Care Lecture",
+                "text":     "The Neonatal Comfort Care Program at the New York Presbyterian-Morgan Stanley Children’s Hospital aims to provide short term care for babies with life limiting conditions. On October 21, neonatologist Dr. Elvira Parravicini, nurse Fran McCarthy and once patient Alessandra Rose share their experiences of beauty and love in a time when medicine <i>cures</i> an untreatable diagnosis."
+            }
+        }
+    ]
+}
